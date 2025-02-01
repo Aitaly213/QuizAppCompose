@@ -42,7 +42,7 @@ fun MainScreen() {
     }
 
     val categoryOptions by remember {
-        mutableStateOf(arrayOf("All", "sdv", "eknskn", "ofsbns"))
+        mutableStateOf(arrayOf("All", "sdv", "eknskn","svjnjvk"))
     }
     var categorySelectedText by remember {
         mutableStateOf(categoryOptions[0])
